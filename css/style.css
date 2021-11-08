@@ -27,18 +27,18 @@ body {
 
 #main {
     display: flex;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
+    flex-direction: column;
     width: 100%;
     height: 100vh;
-    justify-content: center;
     align-content: center;
-    padding-top: 50px;
+    padding: 0 20px;
+    padding-top: 60px;
 }
 
 #main .main-container {
     display: flex;
     flex-direction: column;
-    width: 80%;
     padding: 30px;
     align-items: center;
     height: fit-content;
@@ -79,4 +79,18 @@ body {
 
 .btn:hover {
     transform: translateX(7px);
+}
+
+.log-container {
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+    height: fit-content;
+    background-color: rgba(4, 54, 54, 0.4);
+}
+
+#saved-logs {
+    list-style-type: none;
 }
