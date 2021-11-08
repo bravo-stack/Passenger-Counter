@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 15px/1.5 'Trebuchet MS', Arial, sans-serif, Helvetica;
+    background-image: url("../images/bg.jpeg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 54, 54);
+    padding: 10px;
+    color: white;
+}
+
+#main {
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+
+#main .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 30px;
+    align-items: center;
+    height: fit-content;
+    background-color: rgba(4, 54, 54, 0.5);
+}
+
+#main .main-container h2 {
+    font-size: 45px;
+    color: white;
+}
+
+#pass-value {
+    font-size: 65px;
+    color: white;
+}
+
+#increment {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+#save {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid white;
+}
