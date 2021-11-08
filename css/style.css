@@ -7,10 +7,6 @@
 
 body {
     font: 15px/1.5 'Trebuchet MS', Arial, sans-serif, Helvetica;
-    background-image: url("../images/bg.jpeg");
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
 } 
 
 #header {
@@ -27,13 +23,11 @@ body {
 
 #main {
     display: flex;
-    background-color: rgba(0,0,0,0.6);
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     align-content: center;
-    padding: 0 20px;
-    padding-top: 60px;
+    padding: 25px 25px;
 }
 
 #main .main-container {
@@ -42,7 +36,7 @@ body {
     padding: 30px;
     align-items: center;
     height: fit-content;
-    background-color: rgba(4, 54, 54, 0.4);
+    background-color: rgb(4, 54, 54);
     border-radius: 15px;
 }
 
@@ -83,15 +77,17 @@ body {
 
 .log-container {
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 20px;
     color: white;
-    font-size: 18px;
+    font-size: 28px;
     text-align: center;
     height: fit-content;
-    background-color: rgba(4, 54, 54, 0.4);
+    background-color: rgb(4, 54, 54);
 }
 
 #saved-logs {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
